@@ -9,12 +9,15 @@ while (attempts > 0) {
   if (userInput === correctPassword) {
     console.log("Access granted");
     break;
+
   } else {
     attempts--;
     if (attempts > 0) {
       console.log(`Wrong password! You have ${attempts} attempt(s) left.`);
+
     } else {
       console.log("Account locked 🔒");
+      
     }
   }
 }

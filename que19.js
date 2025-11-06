@@ -15,8 +15,7 @@ for (let i = 1; i <= totalWithdrawals; i++) {
       `₹${amount} withdrawn successfully. Remaining balance: ₹${balance}`
     );
   } else {
-    console.log(`Insufficient balance! You have only ₹${balance}.`);   
-    
+    console.log(`Insufficient balance! You have only ₹${balance}.`);
   }
 }
 

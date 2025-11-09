@@ -18,10 +18,6 @@ for (let i = 1; i <= totalWithdrawals; i++) {
     console.log(`Insufficient balance! You have only ₹${balance}.`);
   }
 }
-
-
-
-
 console.log("Transaction session ended.");
 console.log(`Final balance: ₹${balance}`);
 
